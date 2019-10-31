@@ -1,0 +1,40 @@
+.wrapper {
+  text-align: left;
+  font-size: 20px;
+  font-family: Tahoma, sans-serif;
+  font-weight: 600;
+  padding-bottom: 20px;
+
+  p:nth-child(1) {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .email {
+    color: blue;
+    margin-right: 10px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      display: flex;
+      flex-direction: column;
+      input {
+        width: 300px;
+        margin: 10px 0;
+      }
+      textarea {
+        margin: 10px 0;
+        width: 500px;
+      }
+    }
+
+    button {
+      width: 100px;
+      height: 40px;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.wrapper{
+  width: 100%;
+  text-align: center;
+
+  .header-title{
+    width: 100%;
+    margin: 15px 0;
+    color: orange;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Tahoma, sans-serif;
+    letter-spacing: 1px;
+
+  }
+
+  .header-logo {
+    img {
+      width: 100%;
+      height: 200px;
+    }
+  }
+
+  .header-nav-bar {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-evenly;
+
+    .active-link {
+      font-weight: 600;
+    }
+
+    .nav-bar-link {
+      color: black;
+      font-size: 15px;
+      font-family: Tahoma, sans-serif;
+      cursor: pointer;
+      outline: none;
+      text-decoration: none;
+    }
+  }
+}

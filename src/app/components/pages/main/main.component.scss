@@ -1,0 +1,62 @@
+.wrapper {
+  margin: 15px 0;
+  .forklifts {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-evenly;
+    .forklift {
+      width: 33%;
+      height: 375px;
+      min-width: 250px;
+    }
+  }
+
+  .title {
+    margin: 15px 0;
+    text-align: center;
+    color: orange;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Tahoma, sans-serif;
+    letter-spacing: 1px;
+    .first-row {
+      margin-bottom: 10px;
+      span:nth-child(2) {
+        margin-left: 10px;
+        color: red;
+        text-transform: uppercase;
+      }
+    }
+    .second-row {
+      span:nth-child(2) {
+        margin-left: 10px;
+        color: red;
+      }
+    }
+  }
+
+  .documents {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-evenly;
+    img {
+      width: 33%;
+      height: 500px;
+      min-width: 250px;
+    }
+  }
+
+  .bottom-caption {
+    margin-bottom: 30px;
+    text-align: center;
+    color: orange;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Tahoma, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    span:nth-child(1) {
+      margin-right: 20px;
+    }
+  }
+}

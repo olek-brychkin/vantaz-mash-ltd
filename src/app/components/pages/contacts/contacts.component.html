@@ -1,0 +1,26 @@
+<div class="wrapper">
+  <div class="title">
+    <p>Контакти</p>
+    <p>вул. Холодна 38, м. Львів, Україна, 7903</p>
+    <p>Teл. м. +3 8 067 718 04 56, +3 8 093 763 88 07, +38 032 253 80 12</p>
+    <p>http:// .com/ Email
+      <a href="mailto:anatoliimatsko@gmail.com" class="email">anatoliimatsko@gmail.com;</a>
+      <a href="mailto:navmash@i.ua" class="email">navmash@i.ua</a>
+    </p>
+  </div>
+  <div class="form">
+    <p>Заповніть заявку:</p>
+    <form (ngSubmit)="onSubmit()" [formGroup]="requestForm">
+      <label>Ім'я
+        <input type="text"  placeholder="Name" formControlName="name"/>
+      </label>
+      <label>Email
+        <input type="text"  placeholder="Email" formControlName="email"/>
+      </label>
+      <label>Повідомлення
+        <textarea name="message" cols="30" rows="10" formControlName="message"></textarea>
+      </label>
+      <button [disabled]="requestForm.invalid" type="submit">Надіслати</button>
+    </form>
+  </div>
+</div>
