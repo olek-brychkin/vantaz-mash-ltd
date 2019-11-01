@@ -13,9 +13,10 @@
     display: flex;
     flex-wrap: wrap;
     .image-label {
+      margin-right: 5px;
       img {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
       }
     }
   }
